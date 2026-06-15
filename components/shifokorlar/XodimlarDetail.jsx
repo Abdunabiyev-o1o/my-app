@@ -31,23 +31,33 @@ export default function XodimlarDetail() {
             <div className="grid grid-cols-2 gap-y-4 gap-x-12 mt-4 text-[15px] max-w-[700px]">
               <div className="flex justify-between items-center">
                 <span className="text-[#6B7280]">Mutaxassisligi</span>
-                <span className="font-semibold text-[#111827] w-[180px]">Nevrolog</span>
+                <span className="font-semibold text-[#111827] w-[180px]">
+                  Nevrolog
+                </span>
               </div>
               <div className="flex justify-between items-center">
                 <span className="text-[#6B7280]">Ishga kirgan sana</span>
-                <span className="font-semibold text-[#111827] w-[180px]">26/03/2021</span>
+                <span className="font-semibold text-[#111827] w-[180px]">
+                  26/03/2021
+                </span>
               </div>
               <div className="flex justify-between items-center">
                 <span className="text-[#6B7280]">Ishlayotgan bo'lim</span>
-                <span className="font-semibold text-[#111827] w-[180px]">Nevrologiya</span>
+                <span className="font-semibold text-[#111827] w-[180px]">
+                  Nevrologiya
+                </span>
               </div>
               <div className="flex justify-between items-center">
                 <span className="text-[#6B7280]">Ish grafigi</span>
-                <span className="font-semibold text-[#111827] w-[180px]">To'liq</span>
+                <span className="font-semibold text-[#111827] w-[180px]">
+                  To'liq
+                </span>
               </div>
               <div className="flex justify-between items-center">
                 <span className="text-[#6B7280]">Ish staji</span>
-                <span className="font-semibold text-[#111827] w-[180px]">12 yil</span>
+                <span className="font-semibold text-[#111827] w-[180px]">
+                  12 yil
+                </span>
               </div>
             </div>
           </div>
@@ -66,7 +76,9 @@ export default function XodimlarDetail() {
               </div>
               <div className="flex justify-between">
                 <span className="text-[#6B7280]">Tug’ilgan hudud</span>
-                <span className="font-semibold text-[#111827]">Buxoro viloyati</span>
+                <span className="font-semibold text-[#111827]">
+                  Buxoro viloyati
+                </span>
               </div>
               <div className="flex justify-between items-start gap-4">
                 <span className="text-[#6B7280] shrink-0">Manzil</span>
@@ -79,22 +91,32 @@ export default function XodimlarDetail() {
             <div className="space-y-4">
               <div className="flex justify-between">
                 <span className="text-[#6B7280]">Oilaviy holat</span>
-                <span className="font-semibold text-[#111827]">Turmushga chiqqan</span>
+                <span className="font-semibold text-[#111827]">
+                  Turmushga chiqqan
+                </span>
               </div>
               <div className="flex justify-between">
                 <span className="text-[#6B7280]">Ma’lumoti</span>
-                <span className="font-semibold text-[#111827]">Oliy ma’lumotli</span>
+                <span className="font-semibold text-[#111827]">
+                  Oliy ma’lumotli
+                </span>
               </div>
             </div>
 
             <div className="space-y-4">
               <div className="flex justify-between">
                 <span className="text-[#6B7280]">Telefon raqam</span>
-                <span className="font-semibold text-[#111827]">+998 99 123 45 67</span>
+                <span className="font-semibold text-[#111827]">
+                  +998 99 123 45 67
+                </span>
               </div>
               <div className="flex justify-between items-start gap-4">
-                <span className="text-[#6B7280]">Oila a’zolaridan telefon raqam</span>
-                <span className="font-semibold text-[#111827]">+998 99 123 45 67</span>
+                <span className="text-[#6B7280]">
+                  Oila a’zolaridan telefon raqam
+                </span>
+                <span className="font-semibold text-[#111827]">
+                  +998 99 123 45 67
+                </span>
               </div>
             </div>
           </div>
@@ -106,10 +128,12 @@ export default function XodimlarDetail() {
           <h3 className="font-bold text-[18px] text-[#111827]">
             Mehnat faoliyati
           </h3>
-          <button className="flex items-center gap-2 bg-[#2563EB] hover:bg-blue-700 text-white text-[13px] font-medium px-4 py-2 rounded-[6px] transition">
-            <Plus size={16} />
-            Yangi ish faoliyat tarixi
-          </button>
+          <Link href="/xodimlar">
+            <button className="flex items-center gap-2 bg-[#2563EB] hover:bg-blue-700 text-white text-[13px] font-medium px-4 py-2 rounded-[6px] transition">
+              <Plus size={16} />
+              Yangi ish faoliyat tarixi
+            </button>
+          </Link>
         </div>
 
         <div className="overflow-x-auto">
@@ -125,8 +149,12 @@ export default function XodimlarDetail() {
             <tbody className="divide-y divide-[#F3F4F6] text-[#111827]">
               <tr className="hover:bg-gray-50/50 transition">
                 <td className="py-4 px-6">AKFA MedLine</td>
-                <td className="py-4 px-6 text-[#4B5563]">12/03/2008 - 15/05/2014</td>
-                <td className="py-4 px-6 font-medium text-[#4B5563]">Nevrolog</td>
+                <td className="py-4 px-6 text-[#4B5563]">
+                  12/03/2008 - 15/05/2014
+                </td>
+                <td className="py-4 px-6 font-medium text-[#4B5563]">
+                  Nevrolog
+                </td>
                 <td className="py-4 px-6 text-right">
                   <div className="flex items-center justify-end gap-3">
                     <button className="text-gray-400 hover:text-gray-600 transition">
@@ -140,8 +168,12 @@ export default function XodimlarDetail() {
               </tr>
               <tr className="hover:bg-gray-50/50 transition">
                 <td className="py-4 px-6">7-son Toshkent sh. klinikasi</td>
-                <td className="py-4 px-6 text-[#4B5563]">12/03/2014 - 15/05/2018</td>
-                <td className="py-4 px-6 font-medium text-[#4B5563]">Bosh shifokor</td>
+                <td className="py-4 px-6 text-[#4B5563]">
+                  12/03/2014 - 15/05/2018
+                </td>
+                <td className="py-4 px-6 font-medium text-[#4B5563]">
+                  Bosh shifokor
+                </td>
                 <td className="py-4 px-6 text-right">
                   <div className="flex items-center justify-end gap-3">
                     <button className="text-gray-400 hover:text-gray-600 transition">
@@ -156,7 +188,9 @@ export default function XodimlarDetail() {
               <tr className="hover:bg-gray-50/50 transition">
                 <td className="py-4 px-6">AKFA MedLine</td>
                 <td className="py-4 px-6 text-[#4B5563]">12/03/2018 - </td>
-                <td className="py-4 px-6 font-medium text-[#4B5563]">Nevrolog</td>
+                <td className="py-4 px-6 font-medium text-[#4B5563]">
+                  Nevrolog
+                </td>
                 <td className="py-4 px-6 text-right">
                   <div className="flex items-center justify-end gap-3">
                     <button className="text-gray-400 hover:text-gray-600 transition">
